@@ -78,7 +78,6 @@ gen-external-apklibs
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.fvm/flutter_sdk
 .packages
 .pub-cache/
 .pub/
@@ -258,3 +257,6 @@ fabric.properties
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/android,flutter,androidstudio
+
+# FVM Version Cache
+.fvm/

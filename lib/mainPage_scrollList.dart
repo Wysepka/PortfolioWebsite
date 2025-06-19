@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/cupertino.dart';
+import 'package:portfolio_website/mainPage_topBar.dart';
 
 class MainPageScrollList extends StatefulWidget{
   const MainPageScrollList({super.key});
@@ -13,7 +14,7 @@ class MainPageScrollList extends StatefulWidget{
 class _MainPageScrollList extends State<MainPageScrollList>{
   @override
   Widget build(BuildContext context) {
-    return ListView(children: [MainPageScrollList()],);
+    return ListView(children: [MainPageTopBar()],);
   }
 
 }

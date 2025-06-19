@@ -25,10 +25,10 @@ class _SocialMediaButton extends State<SocialMediaButton>{
        else if(snapshot.hasError){
           return Image.asset("resources/social_media/default.jpg");
        }
-       else if(snapshot.hasData){
+       else{
          return snapshot.data!;
        }
-       return Image.asset("resources/social_media/default.jpg");
+       //return Image.asset("resources/social_media/default.jpg");
    },
    );
   }
